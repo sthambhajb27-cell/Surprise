@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday Diddi ❤️</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #ffe6e6, #fff5f5);
+      text-align: center;
+      padding: 40px;
+    }
+    h1 {
+      color: #b30000;
+    }
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      max-width: 600px;
+      margin: auto;
+    }
+    button {
+      margin-top: 20px;
+      padding: 12px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 25px;
+      background: #ff4d4d;
+      color: white;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #e60000;
+    }
+    .message {
+      margin-top: 25px;
+      font-size: 18px;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>Happy Birthday Mumma ❤️</h1>
+    <p>Tap the button below… I have something special for you 🌸</p>
+
+    <button onclick="showMessage()">Reveal Surprise 🎁</button>
+
+    <div class="message" id="msg"></div>
+  </div>
+
+  <script>
+    const messages = [
+      "You are the strongest person I know 💪",
+      "Thank you for every sacrifice you made for me ❤️",
+      "Your love is my biggest strength 🌼",
+      "I am proud to be your son 💖",
+      "No matter where life takes me, I’ll always be by your side 🤍",
+      " Your next part of the life will be one of the best you have ever lived."
+    ];
+
+    let index = 0;
+
+    function showMessage() {
+      if (index < messages.length) {
+        document.getElementById("msg").innerHTML = messages[index];
+        index++;
+      } else {
+        document.getElementById("msg").innerHTML = "I love you forever, Diddi 💐";
+      }
+    }
+  </script>
+
+</body>
+</html>
