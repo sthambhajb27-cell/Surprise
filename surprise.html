@@ -5,67 +5,80 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Your Surprise ❤️</title>
 
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
 <style>
   body {
     margin: 0;
     padding: 0;
-    font-family: "Segoe UI", sans-serif;
-    background: linear-gradient(135deg, #fff0f5, #ffe6ea);
     min-height: 100vh;
+    background: linear-gradient(140deg, #ffe8f0, #fff3f7);
+    font-family: "Inter", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
   .box {
-    background: white;
     width: 90%;
-    max-width: 500px;
-    padding: 35px;
-    border-radius: 18px;
+    max-width: 520px;
+    background: white;
+    padding: 40px;
+    border-radius: 22px;
     text-align: center;
-    box-shadow: 0px 0px 30px rgba(255,120,150,0.25);
-    animation: fadeIn 1.2s ease;
+    box-shadow: 0 0 30px rgba(255,150,170,0.3);
+    border: 1.5px solid rgba(255,160,180,0.4);
+    animation: reveal 1.4s ease;
   }
 
-  @keyframes fadeIn {
-    from {opacity:0; transform: scale(0.95);}
+  @keyframes reveal {
+    from {opacity:0; transform: scale(0.9);}
     to {opacity:1; transform: scale(1);}
   }
 
   h2 {
-    font-size: 1.9rem;
-    color: #b30047;
+    font-family: "Playfair Display", serif;
+    font-size: 2rem;
+    color: #c7426d;
+    margin-bottom: 15px;
   }
 
   p {
-    margin-top: 15px;
     font-size: 1.2rem;
-    color: #444;
+    color: #555;
+    margin-top: 10px;
+    line-height: 1.55;
   }
 
   .heart {
-    font-size: 2.8rem;
-    margin-top: 15px;
-    animation: beat 1.4s infinite;
+    font-size: 3rem;
+    margin-top: 18px;
+    animation: beat 1.5s infinite;
   }
 
   @keyframes beat {
-    0%, 100% {transform: scale(1);}
-    50% {transform: scale(1.2);}
+    0%,100% {transform: scale(1);}
+    50% {transform: scale(1.22);}
   }
 </style>
-</head>
 
+</head>
 <body>
 
 <div class="box">
-  <h2>Mumma, this is your final surprise 🌟</h2>
-  <p>You are the heart and soul of our home…  
-  my strength… my peace… my biggest blessing.</p>
+  <h2>Your Final Surprise, Mumma 🌟</h2>
 
-  <p>I made all this with love, just for you.  
-  Happy Birthday Diddi ❤️</p>
+  <p>
+    You are the heart and soul of our home…  
+    the warmth behind every smile…  
+    the love behind every success.
+  </p>
+
+  <p>
+    The coming years will be your best ones.
+    I pray and do hope that all your dreams come true!!!
+    Happy Birthday, Diddi ❤️
+  </p>
 
   <div class="heart">💖</div>
 </div>
